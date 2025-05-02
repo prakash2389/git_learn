@@ -1,1 +1,32 @@
 "# Learning git from basics" 
+
+Powershell
+git clone https://ExelatechCloud@dev.azure.com/ExelatechCloud/DataScience/_git/r.ai_data_ingestion_service
+
+
+PyCharm Terminal
+
+git branch
+
+git fetch origin extraction_poc_dev:extraction_poc_dev
+
+This command will fetch the branch from azure
+	
+
+This command weill switch the branch
+data_ingestion_service\apps\connector\utils\jkcl_extraction_utils.py
+
+data_ingestion_service\apps\connector\utils\jkcl_convert_into_layout.py
+
+
+git add .   -----------> To add the files
+
+git commit -m "<commit message>"  -------> To commit
+
+git push origin <branch name>  -----------> To push the changes (any Branch)
+
+
+git fetch origin extraction_poc_qa:extraction_poc_qa
+
+git merge <branch name> ------------> To merge the changes into another branch	(to merge from Dev branch to QA or UAT) You have to be there in QA or UAT before doing thi
+
