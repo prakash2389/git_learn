@@ -6,11 +6,11 @@ def fact(n):
 
 # print(fact(8))
 
-def gener(n):
-    for i in range(1,n):
-        yield (fact(i))
+def generator_factorial(n):
+    for i in range(1, n):
+        yield fact(i)
 
-gen = gener(10)
+gen = generator_factorial(10)
 
 for i in gen:
     print(i)
